@@ -1,0 +1,30 @@
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-weight: normal;
+  src: url(./NotoSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-weight: 600;
+  src: url(./NotoSans-SemiBold.ttf) format('truetype');
+}
+
+body {
+  font-family: 'Noto Sans';
+}
+
+#container {
+  display: flex;
+  position: fixed;
+  transform: translateY(-50%);
+  left: 12px;
+  top: calc(100vh / 6);
+}
