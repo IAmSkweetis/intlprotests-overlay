@@ -1,5 +1,6 @@
 import './overlay.css'
-import svg from 'raw-loader!./overlay.svg'
+//import svg from 'raw-loader!./overlay.svg'
+import svg from 'raw-loader!./test.svg'
 
 const containerEl = document.createElement('div')
 containerEl.id = 'container'
