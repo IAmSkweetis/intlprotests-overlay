@@ -1,5 +1,5 @@
 module.exports = {
-  baseURL: 'https://your.static.host/overlays/',
+  baseURL: 'https://intl.litterbox.io/overlays/',
   overlays: {
     'overlay.html': { kind: 'overlay' },
     'background.html': { kind: 'background' },
